@@ -1,0 +1,78 @@
+/*.container{
+    display: flex;
+    background-image: url("https://static8.depositphotos.com/1016676/814/i/380/depositphotos_8148066-stock-photo-pyramids.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    min-width: 100%;
+    padding-top: 500px;
+    opacity: 0.5;
+    
+
+}*/
+
+
+
+.h1{
+    display: block;
+    letter-spacing:50px;
+    position: sticky;
+    color: #8a5c29;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    padding-top: 25px;
+}
+.p{
+    font-style: italic;
+   
+}
+
+.container i{
+    display: block;
+    position: sticky;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    color: #8a5c29;
+    padding-top: 25px;
+    margin-right: 20px;
+
+}
+
+.container-1{
+    display: flex;
+    margin-top: 25px;
+
+    box-shadow:4px 4px 4px 4px #8a5c29;
+
+}
+.container img{
+    height: 60px;
+    width: 60px;
+    padding-right: 5px;
+}
+
+.pictures{
+    background-color: beige;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.pictures div{
+    padding: 5px;
+    background-color: aliceblue;
+    margin: 5px;
+  
+}
+
+.pictures div img {
+    width: 90px;
+    height: 90px;
+}
+
+img:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+     transform: scale(1.2); 
+}
